@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Montserrat", sans-serif;
+font-family: "Gabarito", sans-serif; */
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL WEBSITE STYLES */
+
+body{
+    background-color: rgb(254, 251, 248);
+}
+
+h1, h2, h3, p, a, input {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2{
+    color: #f52f20;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    font-size:larger;
+}
