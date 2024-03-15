@@ -1,0 +1,21 @@
+.rowAbout{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fotoAbout{
+    background-image: url(../assets/magui.png);
+    height: 600px;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+.textAbout{
+    padding: 10px;
+}
+
+.nameAbout{
+    text-transform: uppercase;
+}

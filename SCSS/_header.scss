@@ -1,0 +1,19 @@
+// ESTILOS BARRA DE NAVEGACIÓN
+
+nav{
+    background-color: $color2;
+    flex-direction: column;
+    font-size: medium;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: $color3;
+}
+
+.logo{
+    width: 200px;
+}

@@ -1,0 +1,81 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Montserrat", sans-serif;
+font-family: "Gabarito", sans-serif; */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL WEBSITE STYLES */
+body {
+  background-color: rgb(254, 251, 248);
+}
+
+h1, h2, h3, p, a, input {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+  color: #f54020;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  font-size: larger;
+}
+
+nav {
+  background-color: white;
+  flex-direction: column;
+  font-size: medium;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #f54020;
+}
+
+.logo {
+  width: 200px;
+}
+
+footer {
+  padding: 2%;
+  background-color: white;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social {
+  color: black;
+  margin: 20px 10px;
+}
+
+.social:hover {
+  color: #f54020;
+}
+
+.copyRight {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.name {
+  color: #f54020;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

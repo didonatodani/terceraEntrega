@@ -1,0 +1,59 @@
+.titleConnect{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.formDiv{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/mar\ hori.jpg);
+    background-size: cover;
+    object-fit: center;
+}
+
+.formGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 200px 40px;
+    height: 300px;
+    width: 500px;
+    margin: 20px 20px 60px 20px;
+    opacity: 0.8;
+    border: $color4 solid 1px;
+}
+
+.formGrid input{
+    border: $color4 solid 1px;
+}
+
+.formText{
+    grid-column: 1/3;
+}
+
+.formSubmit{
+    grid-column: 2/3;
+}
+
+input::placeholder {
+    font-size: smaller;
+    text-align: start;
+    position: absolute;
+    left: 5px;
+}
+
+.formText::placeholder{
+    top: 10px;
+}
+
+.textConnect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
