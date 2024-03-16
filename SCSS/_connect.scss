@@ -10,22 +10,45 @@
     align-items: center;
     background-image: url(../assets/mar\ hori.jpg);
     background-size: cover;
-    object-fit: center;
+    background-position: center;
 }
+// <div class="formDiv">
+//  <div class="formGrid">
+//   <form action="">
+    // <div class="form formName">
+    // <input type="text" placeholder="Name" class="">
+    // </div>
+    // <div class="form formSurname">
+    // <input type="text" placeholder="Surname" class="">
+    // </div>
+    // <div class="form formPhone">
+    // <input type="tel" placeholder="Phone" class="">
+    // </div>
+    // <div class="form formEmail">
+    // <input type="email" placeholder="Email" class="">
+    // </div>
+    // <div class="form formText">
+    // <input type="text" placeholder="Type your message here..." class="">
+    // </div>
+    // <div class="form formSubmit">
+    // <input type="submit" value="Send" class="">
+    // </div>
+//   </form>
+// </div>
+//</div>
 
 .formGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px 200px 40px;
+    grid-template-rows: 40px 40px 190px 30px;
     height: 300px;
-    width: 500px;
-    margin: 20px 20px 60px 20px;
+    width: 450px;
+    margin: 0 15px 0 15px;
     opacity: 0.8;
-    border: $color4 solid 1px;
 }
 
-.formGrid input{
-    border: $color4 solid 1px;
+.formSurname{
+    grid-column: 2/3;
 }
 
 .formText{
@@ -34,6 +57,12 @@
 
 .formSubmit{
     grid-column: 2/3;
+}
+
+.formGrid input{
+    border: $color4 solid 1px;
+    width: 100%;
+    height: 100%;
 }
 
 input::placeholder {
