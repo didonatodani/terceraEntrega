@@ -28,21 +28,6 @@
             grid-column: 1/3;
         }
     
-    /* ABOUT PAGE STYLES */
-        .rowAbout{
-            display: flex;
-            align-items: center;
-            text-align: left;
-        }
-    
-        .textAbout {
-            text-align: left;
-        }
-    
-        .textAbout h2{
-            text-align: left;
-        }
-    
     /* CONNECT PAGE STYLES */
     
         .rowConnect{
@@ -55,6 +40,26 @@
         .formGrid{
             margin-left: 0;
         }
+    }
+
+    @media screen and (min-800px) {
+        /* ABOUT PAGE STYLES */
+        .rowAbout{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: left;
+        }
+    
+        .textAbout {
+            text-align: left;
+        }
+    
+        .textAbout h2{
+            text-align: left;
+        }
+    
+        
     }
     
     @media screen and (min-width:960px) { 

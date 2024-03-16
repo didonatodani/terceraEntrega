@@ -1,15 +1,20 @@
+// ABOUT PAGE STYLES START
+
 .rowAbout{
     padding: 15px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
 }
 
 .fotoAbout{
     background-image: url(../assets/magui.png);
-    height: 600px;
+    height: 500px;
     object-fit: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: $color1;
 }
 
 .textAbout{
@@ -19,3 +24,5 @@
 .nameAbout{
     text-transform: uppercase;
 }
+
+// ABOUT PAGE STYLES END
