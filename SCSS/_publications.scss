@@ -1,6 +1,8 @@
+// PUBLICATIONS STYLES START
 .rowPub{
     display: flex;
     justify-content: space-around;
+    padding: 30px 0;
 }
 .pub{
     background-color: $color3;
@@ -16,3 +18,4 @@
    color: $color1;
    text-transform: uppercase;
 }
+// PUBLICATIONS STYLES END

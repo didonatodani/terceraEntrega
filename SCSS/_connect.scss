@@ -1,3 +1,5 @@
+// CONNECT PAGE STYLES START
+
 .titleConnect{
     padding: 15px;
     margin-top: 10px;
@@ -8,34 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/mar\ hori.jpg);
+    background-image: url(../assets/connect.jpg);
     background-size: cover;
     background-position: center;
 }
-// <div class="formDiv">
-//  <div class="formGrid">
-//   <form action="">
-    // <div class="form formName">
-    // <input type="text" placeholder="Name" class="">
-    // </div>
-    // <div class="form formSurname">
-    // <input type="text" placeholder="Surname" class="">
-    // </div>
-    // <div class="form formPhone">
-    // <input type="tel" placeholder="Phone" class="">
-    // </div>
-    // <div class="form formEmail">
-    // <input type="email" placeholder="Email" class="">
-    // </div>
-    // <div class="form formText">
-    // <input type="text" placeholder="Type your message here..." class="">
-    // </div>
-    // <div class="form formSubmit">
-    // <input type="submit" value="Send" class="">
-    // </div>
-//   </form>
-// </div>
-//</div>
 
 .formGrid{
     display: grid;
@@ -58,6 +36,13 @@
 
 .formSubmit{
     grid-column: 2/3;
+    background-color: $color1 0.8;
+    font-weight: 600;
+}
+
+.formSubmit:hover{
+    color: $color3;
+    border-color: $color3;
 }
 
 .formGrid input{
@@ -73,11 +58,6 @@ input::placeholder {
     left: 5px;
 }
 
-.formText::placeholder{
-    position: absolute;
-    top: 10px;
-}
-
 .textConnect{
     display: flex;
     flex-direction: column;
@@ -88,3 +68,5 @@ input::placeholder {
     font-weight: 600;
     font-style: italic;
 }
+
+// CONNECT PAGE STYLES END

@@ -1,3 +1,5 @@
+// MEDIA QUERIES START
+
 @media screen and (min-width:720px) {
 
     /* SHOOTINGS PAGE STYLES */
@@ -90,12 +92,4 @@
             grid-column: 4/5;
         }
     }
-    
-
-    // REVEEERRRR!!!! PUESTO EN MAININDEX.SCSS
-    // @media screen and (max-width:1024px) { 
-    //     .carousel-item img{
-    //         height:500px;
-    //         object-fit: cover;
-    //     }
-    // }
+// MEDIA QUERIES END

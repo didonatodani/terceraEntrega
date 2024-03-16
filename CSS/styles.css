@@ -155,6 +155,7 @@ footer {
 .rowPub {
   display: flex;
   justify-content: space-around;
+  padding: 30px 0;
 }
 
 .pub {
@@ -182,7 +183,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/mar\ hori.jpg);
+  background-image: url(../assets/connect.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -208,6 +209,13 @@ footer {
 
 .formSubmit {
   grid-column: 2/3;
+  background-color: rgb(254, 251, 248) 0.8;
+  font-weight: 600;
+}
+
+.formSubmit:hover {
+  color: #f54020;
+  border-color: #f54020;
 }
 
 .formGrid input {
@@ -221,11 +229,6 @@ input::placeholder {
   text-align: start;
   position: relative;
   left: 5px;
-}
-
-.formText::placeholder {
-  position: absolute;
-  top: 10px;
 }
 
 .textConnect {
