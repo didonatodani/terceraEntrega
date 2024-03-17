@@ -1,7 +1,7 @@
 // NAV BAR STYLES START
 
 nav{
-    background-color: $color2;
+    background-color: $color1;
     flex-direction: column;
     font-size: medium;
 }
@@ -12,6 +12,8 @@ nav{
 
 .nav-link:hover{
     color: $color3;
+    scale: 1.2;
+    transition: scale 2s;
 }
 
 .logo{

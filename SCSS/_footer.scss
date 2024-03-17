@@ -2,7 +2,7 @@
 
 footer{
     padding: 2%;
-    background-color: $color2;
+    background-color: $color1;
 }
 
 .socialMedia{
@@ -18,6 +18,8 @@ footer{
 
 .social:hover{
     color: $color3;
+    scale: 1.5;
+    transition: scale 2s;
 }
 
 .copyRight{

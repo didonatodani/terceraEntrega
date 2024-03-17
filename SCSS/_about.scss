@@ -9,10 +9,11 @@
 }
 
 .fotoAbout{
-    background-image: url(../assets/magui.png);
+    background-image: url(../assets/maguigif.gif);
     height: 500px;
     object-fit: cover;
-    background-position: bottom;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: $color1;
 }
