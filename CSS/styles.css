@@ -225,6 +225,7 @@ footer {
   grid-column: 2/3;
   background-color: rgb(254, 249, 244) 0.8;
   font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .formSubmit:hover {
