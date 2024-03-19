@@ -1,4 +1,4 @@
-// CONNECT PAGE STYLES START
+/* CONNECT PAGE STYLES START */
 
 .titleConnect{
     padding: 15px;
@@ -13,50 +13,43 @@
     background-image: url(../assets/connect.jpg);
     background-size: cover;
     background-position: 10%;
-}
-
-.formGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 40px 190px 30px;
-    height: 300px;
-    width: 450px;
-    margin: 0 15px 0 15px;
-    opacity: 0.8;
-}
-
-.formSurname{
-    grid-column: 2/3;
-}
-
-.formText{
-    grid-column: 1/3;
-    position: relative;
-}
-
-.formSubmit{
-    grid-column: 2/3;
-    background-color: $color1 0.8;
-    font-weight: 600;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.formSubmit:hover{
-    color: $color3;
-    border-color: $color3;
-}
-
-.formGrid input{
-    border: $color4 solid 1px;
-    width: 100%;
-    height: 100%;
-}
-
-input::placeholder {
-    font-size: smaller;
-    text-align: start;
-    position: relative;
-    left: 5px;
+    .formGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 40px 40px 190px 30px;
+        height: 300px;
+        width: 450px;
+        margin: 0 15px 0 15px;
+        opacity: 0.8;
+        .formSurname{
+            grid-column: 2/3;
+        }
+        .formText{
+            grid-column: 1/3;
+            position: relative;
+        }
+        .formSubmit{
+            grid-column: 2/3;
+            background-color: $color1 0.8;
+            font-weight: 600;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .formSubmit:hover{
+            color: $color3;
+            border-color: $color3;
+        }
+        input{
+            border: $color4 solid 1px;
+            width: 100%;
+            height: 100%;
+        }
+        input::placeholder {
+            font-size: smaller;
+            text-align: start;
+            position: relative;
+            left: 5px;
+        }
+    }
 }
 
 .textConnect{
@@ -70,4 +63,4 @@ input::placeholder {
     font-style: italic;
 }
 
-// CONNECT PAGE STYLES END
+/* CONNECT PAGE STYLES END */

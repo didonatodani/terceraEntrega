@@ -1,4 +1,4 @@
-// ABOUT PAGE STYLES START
+/* ABOUT PAGE STYLES START */
 
 .rowAbout{
     padding: 15px;
@@ -6,24 +6,22 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    .fotoAbout{
+        background-image: url(../assets/maguigif.gif);
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $color1;
+    }
+    .textAbout{
+        padding: 10px;
+        .nameAbout{
+            text-transform: uppercase;
+        }
+    }
 }
 
-.fotoAbout{
-    background-image: url(../assets/maguigif.gif);
-    height: 500px;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: $color1;
-}
+/* ABOUT PAGE STYLES END */
 
-.textAbout{
-    padding: 10px;
-}
-
-.nameAbout{
-    text-transform: uppercase;
-}
-
-// ABOUT PAGE STYLES END

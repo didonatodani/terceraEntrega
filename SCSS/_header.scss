@@ -1,22 +1,30 @@
-// NAV BAR STYLES START
+/* NAV BAR STYLES START */
 
 nav{
     background-color: $color1;
     flex-direction: column;
     font-size: medium;
+    .logo{
+        width: 200px;
+    }
+    div{
+        div{
+            .nav-link{
+                text-align: center;
+            }
+            .nav-link:hover{
+                color: $color3;
+                scale: 1.2;
+                transition: scale 2s;
+            }
+        }
+    }
 }
 
-.nav-link{
-    text-align: center;
-}
+/* NAV BAR STYLES END */
 
-.nav-link:hover{
-    color: $color3;
-    scale: 1.2;
-    transition: scale 2s;
-}
 
-.logo{
-    width: 200px;
-}
-// NAV BAR STYLES END
+
+
+
+

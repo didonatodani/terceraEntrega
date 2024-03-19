@@ -17,76 +17,75 @@ h1, h2, h3, p, a, input {
   font-family: "Montserrat", sans-serif;
 }
 
-h1, h2 {
+h1 {
   color: #f54020;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
 
-h3 {
+h2 {
   font-style: italic;
   font-size: larger;
 }
 
+/* NAV BAR STYLES START */
 nav {
   background-color: rgb(254, 249, 244);
   flex-direction: column;
   font-size: medium;
 }
-
-.nav-link {
+nav .logo {
+  width: 200px;
+}
+nav div div .nav-link {
   text-align: center;
 }
-
-.nav-link:hover {
+nav div div .nav-link:hover {
   color: #f54020;
   scale: 1.2;
   transition: scale 2s;
 }
 
-.logo {
-  width: 200px;
-}
-
+/* NAV BAR STYLES END */
+/* FOOTER STYLES START */
 footer {
   padding: 2%;
   background-color: rgb(254, 249, 244);
 }
-
-.socialMedia {
+footer .socialMedia {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
-.social {
+footer .socialMedia .social {
   color: black;
   margin: 20px 10px;
 }
-
-.social:hover {
+footer .socialMedia .social:hover {
   color: #f54020;
   scale: 1.5;
-  transition: scale 2s;
+  transition: scale 1s;
 }
 
 .copyRight {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
-
-.name {
+.copyRight .name {
   color: #f54020;
   text-transform: uppercase;
   font-weight: bold;
 }
 
+/* FOOTER STYLES END */
+/* MAIN INDEX STYLES START */
 .indexImg {
   height: 500px;
   object-fit: cover;
 }
 
+/* ABOUT PAGE STYLES START */
 .rowAbout {
   padding: 15px;
   display: flex;
@@ -94,8 +93,7 @@ footer {
   align-items: center;
   text-align: center;
 }
-
-.fotoAbout {
+.rowAbout .fotoAbout {
   background-image: url(../assets/maguigif.gif);
   height: 500px;
   object-fit: cover;
@@ -104,15 +102,15 @@ footer {
   background-repeat: no-repeat;
   background-color: rgb(254, 249, 244);
 }
-
-.textAbout {
+.rowAbout .textAbout {
   padding: 10px;
 }
-
-.nameAbout {
+.rowAbout .textAbout .nameAbout {
   text-transform: uppercase;
 }
 
+/* ABOUT PAGE STYLES END */
+/* SHOOTINGS STYLES START */
 /* GRID STYLE: MOBILE FIRST */
 .grid {
   width: 100%;
@@ -122,48 +120,40 @@ footer {
   gap: 10px;
   margin-top: 10px;
 }
-
-.grid-item {
+.grid .grid-item {
   background-size: cover;
   background-position: center;
 }
-
-.item01 {
+.grid .item01 {
   background-image: url(../assets/shoot04.jpg);
   background-position: bottom;
 }
-
-.item02 {
+.grid .item02 {
   background-image: url(../assets/shoot03.jpg);
 }
-
-.item03 {
+.grid .item03 {
   background-image: url(../assets/shoot07.jpg);
 }
-
-.item04 {
+.grid .item04 {
   background-image: url(../assets/shoot01.jpg);
 }
-
-.item05 {
+.grid .item05 {
   background-image: url(../assets/shoot08.jpg);
 }
-
-.item06 {
+.grid .item06 {
   background-image: url(../assets/shoot02.jpg);
 }
-
-.item07 {
+.grid .item07 {
   background-image: url(../assets/shoot06.jpg);
 }
 
+/* SHOOTING PAGE STYLES END */
 .rowPub {
   display: flex;
   justify-content: space-around;
   padding: 30px 0;
 }
-
-.pub {
+.rowPub .pub {
   background-color: rgb(254, 249, 244);
   max-height: 400px;
   max-width: 350px;
@@ -172,21 +162,15 @@ footer {
   justify-content: center;
   margin: 20px 10px;
 }
-
-.pub:hover {
-  transform: scale(1.2);
+.rowPub .pub .pubImg {
+  object-fit: cover;
+}
+.rowPub .pub:hover {
+  transform: scale(1.4);
   transition: 1.5s;
 }
 
-.pubImg {
-  object-fit: cover;
-}
-
-.pub p {
-  color: rgb(254, 249, 244);
-  text-transform: uppercase;
-}
-
+/* CONNECT PAGE STYLES START */
 .titleConnect {
   padding: 15px;
   margin-top: 10px;
@@ -201,8 +185,7 @@ footer {
   background-size: cover;
   background-position: 10%;
 }
-
-.formGrid {
+.formDiv .formGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40px 40px 190px 30px;
@@ -211,35 +194,29 @@ footer {
   margin: 0 15px 0 15px;
   opacity: 0.8;
 }
-
-.formSurname {
+.formDiv .formGrid .formSurname {
   grid-column: 2/3;
 }
-
-.formText {
+.formDiv .formGrid .formText {
   grid-column: 1/3;
   position: relative;
 }
-
-.formSubmit {
+.formDiv .formGrid .formSubmit {
   grid-column: 2/3;
   background-color: rgb(254, 249, 244) 0.8;
   font-weight: 600;
   -webkit-tap-highlight-color: transparent;
 }
-
-.formSubmit:hover {
+.formDiv .formGrid .formSubmit:hover {
   color: #f54020;
   border-color: #f54020;
 }
-
-.formGrid input {
+.formDiv .formGrid input {
   border: black solid 1px;
   width: 100%;
   height: 100%;
 }
-
-input::placeholder {
+.formDiv .formGrid input::placeholder {
   font-size: smaller;
   text-align: start;
   position: relative;
@@ -257,6 +234,7 @@ input::placeholder {
   font-style: italic;
 }
 
+/* CONNECT PAGE STYLES END */
 @media screen and (min-width: 720px) {
   /* SHOOTINGS PAGE STYLES */
   .grid {
