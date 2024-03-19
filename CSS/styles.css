@@ -177,10 +177,10 @@ footer .socialMedia .social:hover {
 }
 
 .formDiv {
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-image: url(../assets/connect.jpg);
   background-size: cover;
@@ -191,7 +191,7 @@ footer .socialMedia .social:hover {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40px 40px 190px 30px;
   height: 300px;
-  width: 450px;
+  max-width: 450px;
   margin: 15px 15px 0 15px;
   opacity: 0.8;
 }
