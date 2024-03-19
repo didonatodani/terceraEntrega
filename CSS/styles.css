@@ -172,13 +172,14 @@ footer .socialMedia .social:hover {
 
 /* CONNECT PAGE STYLES START */
 .titleConnect {
-  padding: 15px;
+  padding: 10px;
   margin-top: 10px;
 }
 
 .formDiv {
   height: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(../assets/connect.jpg);
@@ -191,7 +192,7 @@ footer .socialMedia .social:hover {
   grid-template-rows: 40px 40px 190px 30px;
   height: 300px;
   width: 450px;
-  margin: 0 15px 0 15px;
+  margin: 15px 15px 0 15px;
   opacity: 0.8;
 }
 .formDiv .formGrid .formSurname {
@@ -235,7 +236,8 @@ footer .socialMedia .social:hover {
 }
 
 /* CONNECT PAGE STYLES END */
-@media screen and (min-width: 720px) {
+/* MEDIA QUERIES START */
+@media screen and (min-width: 600px) and (max-width: 960px) {
   /* SHOOTINGS PAGE STYLES */
   .grid {
     width: 100%;
@@ -245,31 +247,21 @@ footer .socialMedia .social:hover {
     gap: 10px;
     margin-top: 10px;
   }
-  .item01 {
+  .grid .item01 {
     grid-row: 2/4;
   }
-  .item02 {
+  .grid .item02 {
     grid-column: 1/3;
     grid-row: 1/2;
   }
-  .item04 {
+  .grid .item04 {
     grid-row: 3/5;
   }
-  .item05 {
+  .grid .item05 {
     grid-row: 4/6;
   }
-  .item07 {
+  .grid .item07 {
     grid-column: 1/3;
-  }
-  /* CONNECT PAGE STYLES */
-  .rowConnect {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .formGrid {
-    margin-left: 0;
   }
 }
 @media screen and (min-800px) {
@@ -295,23 +287,23 @@ footer .socialMedia .social:hover {
     grid-template-rows: repeat(3, 250px);
     gap: 10px;
   }
-  .item01 {
+  .grid .item01 {
     grid-row: 1/3;
   }
-  .item02 {
+  .grid .item02 {
     grid-column: 2/4;
   }
-  .item03 {
+  .grid .item03 {
     grid-row: 1/3;
     grid-column: 4/5;
   }
-  .item04 {
+  .grid .item04 {
     grid-row: 2/4;
   }
-  .item05 {
+  .grid .item05 {
     grid-row: 2/4;
   }
-  .item07 {
+  .grid .item07 {
     grid-column: 4/5;
   }
 }
